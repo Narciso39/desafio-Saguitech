@@ -9,7 +9,8 @@
   <body>
     <main>
       <section class="product-section">
-        <h1>Cadastro de Produtos - Nota Fiscal</h1>
+        <div class="title"><h1>Cadastro de Produtos - Nota Fiscal</h1></div>
+
         <form class="nfe-dados" id="productForm">
           <label for="name">Nome do produto:</label>
           <input
@@ -57,7 +58,12 @@
       <div class="product-list" id="productList">
         <h3>Produtos Adicionados:</h3>
         <ul id="productItems"></ul>
-        <button id="buttonNfe" class="button-disable" type="button" onclick="gerarNota()">
+        <button
+          id="buttonNfe"
+          class="button-disable"
+          type="button"
+          onclick="gerarNota()"
+        >
           Gerar Nota Fiscal
         </button>
       </div>
