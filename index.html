@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Desafio Saguitech</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+        <section class="product-section">
+            <h1>Cadastro de Produtos - Nota Fiscal</h1>
+            <form class="nfe-dados" id="productForm">
+              <label for="name">Nome do produto:</label>
+              <input type="text" name="nome" id="name" placeholder="exemplo: celular"required />
+              
+              <label for="price">Preço do produto:</label>
+              <input type="number" name="preço" id="price" placeholder="exemplo: 10" required />
+              
+              <label for="irpf">Porcentagem do IRPF (%):</label>
+              <input type="number" id="irpf" placeholder="Exemplo: 15" required />
+              
+              <label for="pis">Porcentagem do PIS (%):</label>
+              <input type="number" id="pis" placeholder="Exemplo: 1.65" required />
+              
+              <label for="cofins">Porcentagem do COFINS (%):</label>
+              <input type="number" id="cofins" placeholder="Exemplo: 7.6" required />
+              
+              <label for="inss">Porcentagem do INSS (%):</label>
+              <input type="number" id="inss" placeholder="Exemplo: 11" required />
+              
+              <label for="issqn">Porcentagem do ISSQN (%):</label>
+              <input type="number" id="issqn" placeholder="Exemplo: 5" required />
+              
+              <button type="button" onclick="adicionarProduto()">Cadastrar produto</button>
+            </form>
+          </section>
+      
+          <div class="product-list" id="productList">
+            <h3>Produtos Adicionados:</h3>
+            <ul id="productItems"></ul>
+            <button type="button" onclick="gerarNota()">Gerar Nota Fiscal</button>
+          </div>
+      
+
+        <div class="overlay" id="overlay"></div>
+        <div class="modal" id="notaModal">
+          <h3>Nota Fiscal</h3>
+          <div id="notaDetalhes"></div>
+          <button type="button" onclick="fecharModal()">Fechar</button>
+        </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
