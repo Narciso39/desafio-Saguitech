@@ -37,7 +37,12 @@ body {
     margin-top: 0;
   }
 
-
+  .button-disable {
+    background-color: #ccc;  
+    color: #666;  
+    cursor: not-allowed; 
+  }
+  
   .modal {
     display: none;
     position: fixed;
