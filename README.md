@@ -24,11 +24,11 @@ O objetivo deste desafio é desenvolver uma página HTML com JavaScript que perm
    - O repositório deve conter todos os arquivos necessários para o funcionamento da página.
 
 2. **Publicar a página funcional**:
-   - A página deve estar disponível para testes, podendo ser hospedada em serviços como GitHub Pages, Vercel ou Netlify.
+   - A página deve estar disponível para testes na Vercel.
 
 ## Entregáveis
-- **Link para a página funcionando** (para testes).
-- **Link para o repositório GitHub** com o código-fonte completo.
+- **Link para a página funcionando:** [Teste a aplicação aqui](https://desafio-saguitech-phi.vercel.app/).
+- **Link para o repositório GitHub:** [GitHub](https://github.com/Narciso39/desafio-Saguitech).
 
 ## Instruções de Submissão
 - Insira no formulário os dois links:
@@ -39,7 +39,7 @@ O objetivo deste desafio é desenvolver uma página HTML com JavaScript que perm
 Caso prefira, você pode:
 1. Criar o projeto no GitHub e enviar apenas uma página HTML em branco inicialmente.
 2. Continuar o desenvolvimento do projeto posteriormente.
-   
+
 **Prazo Máximo para Entrega:** Sexta-feira, 10/01, até meio-dia.
 
 ---
@@ -54,4 +54,4 @@ A estrutura do projeto está organizada da seguinte forma:
 |   |-- script.js
 |
 |-- index.html           # Página principal
-|-- README.md            # Detalhes do projeto
+|-- README.md            # Detalhes do projeto de maneira eficiente
