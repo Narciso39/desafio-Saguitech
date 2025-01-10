@@ -21,6 +21,15 @@ input {
   padding: 8px;
   box-sizing: border-box;
 }
+
+.nfe-dados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 button {
   background-color: #4caf50;
   color: white;
